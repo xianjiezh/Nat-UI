@@ -1,2 +1,4 @@
 # Nat-UI
-Nat-UI 基于 vue 的 ui 框架  
+
+基于 vue 的 ui 框架  
+A Vue.js 2.0 UI Toolkit for Web.
