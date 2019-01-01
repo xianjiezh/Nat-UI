@@ -1,5 +1,7 @@
 <template>
-  <button class="n-button">hihihi</button>
+  <button class="n-button">
+    <slot></slot>
+  </button>
 </template>
 
 <script>
