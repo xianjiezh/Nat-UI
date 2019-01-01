@@ -1,0 +1,22 @@
+{
+  "name": "nat-ui",
+  "version": "1.0.0",
+  "description": "基于 vue 的 ui 框架  / A Vue.js Toolkit for Web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xianjiezh/Nat-UI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xianjiezh/Nat-UI/issues"
+  },
+  "homepage": "https://github.com/xianjiezh/Nat-UI#readme",
+  "dependencies": {
+    "vue": "^2.5.21"
+  }
+}
