@@ -1,8 +1,6 @@
 <template>
   <button class="n-button" :class="{[`icon-${iconPosition}`]: true}">
-    <svg v-if="icon" class="icon">
-      <use :xlink:href="`#i-${icon}`"></use>
-    </svg>
+    <n-icon v-if="icon" :icon-name="icon"></n-icon>
     <div class="content">
       <slot></slot>
     </div>
@@ -15,6 +13,7 @@ export default {
   props: {
     icon: {},
     iconPosition: {
+      type: String,
       default: 'left',
       validator(value) {
         return value == 'left' || value == 'right'
